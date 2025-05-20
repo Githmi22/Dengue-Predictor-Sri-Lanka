@@ -1,4 +1,4 @@
-### Pattern Recognition and Predicting Dengue Outbreaks in Sri Lanka Using Machine Learning and Weather Data
+# Pattern Recognition and Predicting Dengue Outbreaks in Sri Lanka Using Machine Learning and Weather Data
 
 ## 🧠 Overview
 This research project investigates the application of machine learning models to predict dengue outbreaks in Sri Lanka using historical weather and epidemiological data. The study explores the relationship between climatic factors—such as rainfall, temperature, and humidity—and the incidence of dengue fever, aiming to provide an early warning system that enhances public health response and resource allocation.
@@ -14,20 +14,20 @@ Dengue Case Data: Epidemiology Unit of Sri Lanka (www.epid.gov.lk)
 Weather Data: Department of Meteorology, Sri Lanka (www.meteo.gov.lk)
 
 ## 🔍 Methodology
-# Data Collection & Integration:
+### Data Collection & Integration:
 Collected weekly/monthly dengue cases and daily weather data.
 Aligned both datasets using district and year as keys.
 Normalized time intervals using interpolation techniques.
-# Preprocessing:
+### Preprocessing:
 Handled missing values, applied standardization and min-max normalization.
 Feature engineering: moving averages, lag features, and seasonal decomposition.
-# Exploratory Data Analysis (EDA):
+### Exploratory Data Analysis (EDA):
 Correlation heatmaps, trend analysis, and seasonal decomposition to identify relevant predictors.
-# Modeling Approaches:
-# Initial models: Lasso Regression, Ridge Regression (low performance ~10% accuracy).
+###  Modeling Approaches:
+###  Initial models: Lasso Regression, Ridge Regression (low performance ~10% accuracy).
 Time Series Model: ARIMA (Accuracy: 67.6%)
 Machine Learning Model: XGBoost Regression (Accuracy: 95.43%)
-# Evaluation Metrics:
+###  Evaluation Metrics:
 Mean Absolute Error (MAE)
 Root Mean Squared Error (RMSE)
 Cross-Validated MAE
